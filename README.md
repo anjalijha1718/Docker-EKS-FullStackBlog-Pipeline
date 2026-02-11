@@ -38,15 +38,5 @@ Production-ready **Full-Stack Blogging Application** with complete **CI/CD pipel
 
 ### 1. AWS CLI + Terraform
 ```bash
-curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
-unzip awscliv2.zip && sudo ./aws/install
-aws configure
-
-sudo apt install terraform -y
-# SonarQube
-docker run -d -p 9000:9000 sonarqube:lts-community
-
-# Nexus  
-docker run -d -p 8081:8081 sonatype/nexus3
 
 
